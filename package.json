@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "node server.js &",
     "local": "node local.js -s shadowtest12.herokuapp.com -l 8888 -m aes-256-cfb -k 20151005 -p 80 &",
-    "start": "npm run server && npm run local"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
